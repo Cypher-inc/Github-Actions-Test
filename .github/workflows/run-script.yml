@@ -28,4 +28,4 @@ jobs:
       - name: Run script
         env:
           MY_API_KEY: ${{ secrets.MY_API_KEY }}  # optional secret
-        run: python scripts/hello.py
+        run: python hello.py
